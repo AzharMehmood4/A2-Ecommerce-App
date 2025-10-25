@@ -1,0 +1,6 @@
+echo "
+# Ignore build and node_modules
+frontend/android/app/build/
+frontend/android/.gradle/
+frontend/node_modules/
+" >> .gitignore
