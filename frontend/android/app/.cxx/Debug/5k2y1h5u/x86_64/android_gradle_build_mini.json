@@ -1,0 +1,85 @@
+{
+  "buildFiles": [
+    "/home/azhar/Desktop/A2-Ecommerce-App/frontend/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/CMakeLists.txt",
+    "/home/azhar/Desktop/A2-Ecommerce-App/frontend/node_modules/@react-native-picker/picker/android/src/main/jni/CMakeLists.txt",
+    "/home/azhar/Desktop/A2-Ecommerce-App/frontend/node_modules/@react-native-vector-icons/evil-icons/android/build/generated/source/codegen/jni/CMakeLists.txt",
+    "/home/azhar/Desktop/A2-Ecommerce-App/frontend/node_modules/@react-native-vector-icons/fontawesome6/android/build/generated/source/codegen/jni/CMakeLists.txt",
+    "/home/azhar/Desktop/A2-Ecommerce-App/frontend/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt",
+    "/home/azhar/Desktop/A2-Ecommerce-App/frontend/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt",
+    "/home/azhar/Desktop/A2-Ecommerce-App/frontend/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/azhar/Android/Sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/home/azhar/Desktop/A2-Ecommerce-App/frontend/android/app/.cxx/Debug/5k2y1h5u/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/azhar/Android/Sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/home/azhar/Desktop/A2-Ecommerce-App/frontend/android/app/.cxx/Debug/5k2y1h5u/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "react_codegen_safeareacontext::@7984cd80db47aa7b952a": {
+      "artifactName": "react_codegen_safeareacontext",
+      "abi": "x86_64",
+      "output": "/home/azhar/Desktop/A2-Ecommerce-App/frontend/android/app/build/intermediates/cxx/Debug/5k2y1h5u/obj/x86_64/libreact_codegen_safeareacontext.so",
+      "runtimeFiles": [
+        "/home/azhar/.gradle/caches/9.0.0/transforms/5fa135f9220cf0ae1e3ee40cd371125b/transformed/fbjni-0.7.0/prefab/modules/fbjni/libs/android.x86_64/libfbjni.so",
+        "/home/azhar/.gradle/caches/9.0.0/transforms/ea12ac1f332b31fb5e1a55c985795b89/transformed/react-android-0.82.0-debug/prefab/modules/jsi/libs/android.x86_64/libjsi.so",
+        "/home/azhar/.gradle/caches/9.0.0/transforms/ea12ac1f332b31fb5e1a55c985795b89/transformed/react-android-0.82.0-debug/prefab/modules/reactnative/libs/android.x86_64/libreactnative.so"
+      ]
+    },
+    "react_codegen_VectorIconsEvilIcons::@cd02e201fea1713bb7cb": {
+      "artifactName": "react_codegen_VectorIconsEvilIcons",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "react_codegen_rnscreens::@25bcbd507e98d3a854ad": {
+      "artifactName": "react_codegen_rnscreens",
+      "abi": "x86_64",
+      "output": "/home/azhar/Desktop/A2-Ecommerce-App/frontend/android/app/build/intermediates/cxx/Debug/5k2y1h5u/obj/x86_64/libreact_codegen_rnscreens.so",
+      "runtimeFiles": [
+        "/home/azhar/.gradle/caches/9.0.0/transforms/ea12ac1f332b31fb5e1a55c985795b89/transformed/react-android-0.82.0-debug/prefab/modules/reactnative/libs/android.x86_64/libreactnative.so",
+        "/home/azhar/.gradle/caches/9.0.0/transforms/ea12ac1f332b31fb5e1a55c985795b89/transformed/react-android-0.82.0-debug/prefab/modules/jsi/libs/android.x86_64/libjsi.so",
+        "/home/azhar/.gradle/caches/9.0.0/transforms/5fa135f9220cf0ae1e3ee40cd371125b/transformed/fbjni-0.7.0/prefab/modules/fbjni/libs/android.x86_64/libfbjni.so"
+      ]
+    },
+    "appmodules::@6890427a1f51a3e7e1df": {
+      "artifactName": "appmodules",
+      "abi": "x86_64",
+      "output": "/home/azhar/Desktop/A2-Ecommerce-App/frontend/android/app/build/intermediates/cxx/Debug/5k2y1h5u/obj/x86_64/libappmodules.so",
+      "runtimeFiles": [
+        "/home/azhar/Desktop/A2-Ecommerce-App/frontend/android/app/build/intermediates/cxx/Debug/5k2y1h5u/obj/x86_64/libreact_codegen_rnpicker.so",
+        "/home/azhar/Desktop/A2-Ecommerce-App/frontend/android/app/build/intermediates/cxx/Debug/5k2y1h5u/obj/x86_64/libreact_codegen_safeareacontext.so",
+        "/home/azhar/Desktop/A2-Ecommerce-App/frontend/android/app/build/intermediates/cxx/Debug/5k2y1h5u/obj/x86_64/libreact_codegen_rnscreens.so",
+        "/home/azhar/.gradle/caches/9.0.0/transforms/5fa135f9220cf0ae1e3ee40cd371125b/transformed/fbjni-0.7.0/prefab/modules/fbjni/libs/android.x86_64/libfbjni.so",
+        "/home/azhar/.gradle/caches/9.0.0/transforms/ea12ac1f332b31fb5e1a55c985795b89/transformed/react-android-0.82.0-debug/prefab/modules/jsi/libs/android.x86_64/libjsi.so",
+        "/home/azhar/.gradle/caches/9.0.0/transforms/ea12ac1f332b31fb5e1a55c985795b89/transformed/react-android-0.82.0-debug/prefab/modules/reactnative/libs/android.x86_64/libreactnative.so"
+      ]
+    },
+    "react_codegen_rnasyncstorage::@1596841e19ec5b9eeffe": {
+      "artifactName": "react_codegen_rnasyncstorage",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "react_codegen_rnpicker::@e8bb2e9e833f47d0d516": {
+      "artifactName": "react_codegen_rnpicker",
+      "abi": "x86_64",
+      "output": "/home/azhar/Desktop/A2-Ecommerce-App/frontend/android/app/build/intermediates/cxx/Debug/5k2y1h5u/obj/x86_64/libreact_codegen_rnpicker.so",
+      "runtimeFiles": [
+        "/home/azhar/.gradle/caches/9.0.0/transforms/ea12ac1f332b31fb5e1a55c985795b89/transformed/react-android-0.82.0-debug/prefab/modules/reactnative/libs/android.x86_64/libreactnative.so",
+        "/home/azhar/.gradle/caches/9.0.0/transforms/ea12ac1f332b31fb5e1a55c985795b89/transformed/react-android-0.82.0-debug/prefab/modules/jsi/libs/android.x86_64/libjsi.so",
+        "/home/azhar/.gradle/caches/9.0.0/transforms/5fa135f9220cf0ae1e3ee40cd371125b/transformed/fbjni-0.7.0/prefab/modules/fbjni/libs/android.x86_64/libfbjni.so"
+      ]
+    },
+    "react_codegen_VectorIconsFontAwesome6::@593c2d0dc8ab80edeb45": {
+      "artifactName": "react_codegen_VectorIconsFontAwesome6",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    }
+  }
+}

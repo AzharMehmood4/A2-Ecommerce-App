@@ -1,0 +1,1 @@
+/home/azhar/Desktop/A2-Ecommerce-App/frontend/android/app/build/intermediates/cxx/Debug/5k2y1h5u/obj/arm64-v8a

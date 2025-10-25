@@ -1,0 +1,4 @@
+/home/azhar/Desktop/A2-Ecommerce-App/frontend/android/app/.cxx/Debug/5k2y1h5u/x86_64/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
+/home/azhar/Desktop/A2-Ecommerce-App/frontend/android/app/.cxx/Debug/5k2y1h5u/x86_64/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
+/home/azhar/Desktop/A2-Ecommerce-App/frontend/android/app/.cxx/Debug/5k2y1h5u/x86_64/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
+/home/azhar/Desktop/A2-Ecommerce-App/frontend/android/app/.cxx/Debug/5k2y1h5u/x86_64/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir
