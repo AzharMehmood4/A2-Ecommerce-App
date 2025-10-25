@@ -1,15 +1,19 @@
+// db.js
 const mongoose = require('mongoose');
-require('dotenv').config();
 
 const connectDB = async () => {
   try {
-    await mongoose.connect(process.env.MONGO_URI, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
-    console.log("✅ MongoDB Connected Successfully!");
-  } catch (err) {
-    console.error("❌ MongoDB Connection Error:", err);
+    // Debug: Check if URI is loaded
+    console.log('Attempting to connect with URI:', process.env.MONGODB_URI ? 'URI loaded' : 'URI MISSING!');
+
+    if (!process.env.MONGODB_URI) {
+      throw new Error('MONGODB_URI is missing! Check your .env file');
+    }
+
+    await mongoose.connect(process.env.MONGODB_URI);
+    console.log('MongoDB Connected Successfully!');
+  } catch (error) {
+    console.error('MongoDB Connection Error:', error.message);
     process.exit(1);
   }
 };

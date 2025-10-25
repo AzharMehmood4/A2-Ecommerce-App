@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const bcrypt = require('bcryptjs');  // ✅ CHANGED: bcryptjs instead of bcrypt
+const bcrypt = require('bcryptjs');  // CHANGED: bcryptjs instead of bcrypt
 const User = require('../models/User');
 
-// ✅ SIGNUP ROUTE (Updated for bcryptjs)
+// SIGNUP ROUTE (Updated for bcryptjs)
 router.post('/auth/signup', async (req, res) => {
   try {
     const { name, email, password } = req.body;
@@ -42,7 +42,7 @@ router.post('/auth/signup', async (req, res) => {
   }
 });
 
-// ✅ LOGIN ROUTE (Updated for bcryptjs)
+// LOGIN ROUTE (Updated for bcryptjs)
 router.post('/auth/login', async (req, res) => {
   try {
     const { email, password } = req.body;
@@ -64,7 +64,7 @@ router.post('/auth/login', async (req, res) => {
       return res.status(401).json({ message: 'Invalid credentials' });
     }
 
-    // ✅ LOGIN SUCCESS
+    //LOGIN SUCCESS
     res.status(200).json({
       message: 'Login successful',
       user: {
