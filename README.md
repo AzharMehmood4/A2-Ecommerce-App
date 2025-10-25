@@ -1,10 +1,7 @@
-Here’s your updated **README.md** file text (clean, clear, and correctly formatted):
+# 🛍️ A2-Ecommerce App — Mobile Shop
 
----
-
-# 🛍️ A2-Ecommerce App
-
-This is a full-stack **E-Commerce Mobile App** built using **React Native Community CLI** for the frontend and **Node.js** with **Express** for the backend.
+This is a full-stack **E-Commerce Mobile App (Mobile Shop)** built using **React Native Community CLI** for the frontend and **Node.js** with **Express** for the backend.
+It allows users to browse products, add them to the cart, and place orders — all from their mobile device.
 
 ---
 
@@ -73,7 +70,3 @@ npx react-native run-android
 * **Frontend:** React Native (Community CLI)
 * **Backend:** Node.js + Express
 * **Database:** MongoDB
-
----
-
-Would you like me to include a short “Features” section (like login, add to cart, checkout, etc.) to make your README look more professional?
